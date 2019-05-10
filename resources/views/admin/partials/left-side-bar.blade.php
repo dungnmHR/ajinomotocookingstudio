@@ -154,7 +154,7 @@
                     <span class="fa arrow"></span>
                 </a>
                 <ul class="nav nav-second-level">
-                    <li class={{$flag == "lien_ket" ? "active" : ""}}><a href="#">Trang liên kết</a></li>
+                    <li class={{$flag == "lien_ket" ? "active" : ""}}><a href="{{route('danh-sach-lien-ket')}}">Trang liên kết</a></li>
                     <li class={{$flag == "banner" ? "active" : ""}}><a href="#">Banner</a></li>
                     <li class={{$flag == "logo" ? "active" : ""}}><a href="#">Logo</a></li>
                     <li class={{$flag == "page" ? "active" : ""}}><a href="#">Trang</a></li>
